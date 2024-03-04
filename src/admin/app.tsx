@@ -28,8 +28,26 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
+
+    // auth: {
+    //   hillside,
+    // },
+    // head: {
+    //   favicon: hillside,
+    // }, 
+    // menu: {
+    //   hillside,
+    // },
+
+    translations: {
+      en: {
+        "app.components.LeftMenu.navbrand.title": "HIC Admin Dashboard",
+        "Auth.form.welcome.title": "Welcome to Hillside",
+        "Auth.form.welcome.subtitle": "Login to your account",
+      },
+    },
   },
-  bootstrap(app: any) {
+  bootstrap(app : any) {
     console.log(app);
   },
 };
